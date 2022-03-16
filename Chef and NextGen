@@ -1,0 +1,30 @@
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) 
+	{
+		Scanner sc= new Scanner(System.in);
+		
+		int T= sc.nextInt();
+		
+		for(int i=1;i<=T;i++)
+		{
+		    int A=sc.nextInt();
+		    int B=sc.nextInt();
+		    int X=sc.nextInt();
+		    int Y=sc.nextInt();
+		    
+		    if((A*B)<=(X*Y))
+		    {
+		        System.out.println("Yes");
+		    } else
+		    {
+		        System.out.println("No");
+		    }
+		}
+	}
+}
