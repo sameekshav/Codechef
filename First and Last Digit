@@ -1,0 +1,28 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class Codechef
+{
+	public static void main (String[] args) 
+	{
+	  Scanner sc = new Scanner(System.in);
+	  int i=0,sum=0,r=0;
+	  int T = sc.nextInt();
+	  while(i<T)
+	  {
+	      int a = sc.nextInt();
+	      sum = a%10;
+	      while(a>0)
+	      {
+	          r = a%10;
+	          a = a/10;
+	      }
+	      sum = sum+r;
+	      System.out.println(sum);
+	      i++;
+	  }
+	}
+}
+
+
